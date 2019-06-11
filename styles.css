@@ -1,0 +1,55 @@
+.header{
+    background-color: brown
+}
+.box1{
+    background-color: lightskyblue 
+}
+h1  {
+color:white;
+font-size: 28px;
+text-align: center;
+padding: 20px;
+margin: 2px
+}
+
+.red_text
+{color: orangered;
+font-size: 15px;
+text-align: center}
+
+.italic_text{
+    font-style: italic;
+    color: green;
+}
+
+.bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px
+}
+.column1{
+    display: inline-block;
+    width: 30%;
+    
+}
+.column2{
+    display: inline-block;
+    width: 40%;
+   
+}
+.column3{
+    display: inline-block;
+    width: 30%;
+}
+
+#section1{
+    width: 70%
+}
+#section2{
+    width: 30%
+}
+
+#section1, 
+#section2{
+    float: left;
+}

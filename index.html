@@ -3,35 +3,95 @@
     <head>
         <style>
             .header{
-                background-color: lightblue}
+                background-color: brown
+            }
             .box1{
-                background-color: lightskyblue }
-            h1
-            {color: orangered;
-            font-size: 65px;
-            text-align: center}
+                background-color: lightskyblue 
+            }
+            h1  {
+            color:white;
+            font-size: 28px;
+            text-align: center;
+            padding: 20px;
+            margin: 2px
+            }
         
+            .red_text
+            {color: orangered;
+            font-size: 15px;
+            text-align: center}
+
+            .italic_text{
+                font-style: italic;
+                color: green;
+            }
+
+            .bio-image {
+                width: 200px;
+                height: 200px;
+                margin-right: 20px
+            }
+            .column1{
+                display: inline-block;
+                width: 30%;
+                
+            }
+            .column2{
+                display: inline-block;
+                width: 40%;
+               
+            }
+            .column3{
+                display: inline-block;
+                width: 30%;
+            }
+
+            #section1{
+                width: 70%
+            }
+            #section2{
+                width: 30%
+            }
+
+            #section1, 
+            #section2{
+                float: left;
+            }
+
         </style>
         <meta charset="UTF-8">
         <title>Student Bio</title>
     </head>
     <body>
-        <div class="header">
-            <h1>Student Bio</h1>
-        </div>
-        <div class="box1">
-                <h1 style="color: royalblue;font-size: 66px;text-align: left">Fernando Peniche</h1>
-                <h2 style="color: orangered; font-style: italic">I'm from Mexico City. I like to play tennis and soccer</h2>
+        <header class="header">
+                <h1>Student Bio1</h1>
+        </header>
+        <section id="section1">
+                <div class="column1">
+                        <h1 style="color: royalblue;font-size: 20px;text-align: left">Fernando Peniche</h1>
+                        <img class="bio-image" src="https://placehold.it/200x200" alt="Peniche's pic">
+                </div>
         
-                <h3 style="color:mediumblue; font-style:italic">Contact Info</h3>
-                    <ul>
-                        <li>Email: <a href="mailto:fernandogpeniche@gmail.com">fernandogpeniche@gmail.</a></li>
-                        <li>Github: <a href="mailto:sample name">samplename</a></li>
-                    </ul>
+                <div class="column2">
+                        <h2 style="color: orangered; font-style: italic; text-align: center;">I'm from Mexico City. I like to play tennis and soccer. I am an SAP consultant for financials and logistics modules, and want to learn web development to do freelance work on my own.</h2>
+                </div>
+        
+        </section>   
+        <section id="section2">
+                <div class="column3">
+                        <h3 style="color:mediumblue">Contact Info</h3>
+                        <ul>
+                            <li>Email: <a href="mailto:fernandogpeniche@gmail.com">fernandogpeniche@gmail.com</a></li>
+                            <li>Github: <a class="italic_text" href="mailto:sample name">Sample Name</a></li>
+                            <li>Portfolio: <a class="red_text" href="#">Coming Soon</a></li>
+                        </ul>
+        
+                </div>
+        </section>     
+                
 
-        </div>
         
         
-
+        
     </body>
 </html>
